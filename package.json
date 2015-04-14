@@ -1,4 +1,13 @@
 {
+  "name": "cf-forms",
+  "version": "1.2.0",
+  "description": "Enhanced form styles for Capital Framework.",
+  "keywords": [
+    "capital-framework",
+    "capital",
+    "forms",
+    "less"
+  ],
   "devDependencies": {
     "cf-component-demo": "git://github.com/cfpb/cf-component-demo.git#0.9.1",
     "cf-grunt-config": "~0.3.1",
@@ -8,5 +17,12 @@
     "load-grunt-tasks": "~2.0.0",
     "node.extend": "~1.0.10",
     "time-grunt": "~1.0.0"
-  }
+  },
+  "dependencies": {
+    "cf-buttons": "git://github.com/contolini/cf-buttons.git#npm",
+    "cf-core": "git://github.com/contolini/cf-core#npm",
+    "cf-grid": "git://github.com/contolini/cf-grid.git#npm",
+    "cf-icons": "git://github.com/contolini/cf-icons.git#npm"
+  },
+  "main": "src/cf-forms.less"
 }
